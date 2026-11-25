@@ -9,7 +9,7 @@ export const site = {
   url: "https://www.zeddenglish.co.kr",
   // 검색엔진 소유 확인 코드: 네이버 서치어드바이저 / 구글 서치콘솔에서 받은 값을 넣으세요
   verification: {
-    naver: "",
+    naver: "2d9dc0e959e8b2200265e75902f2379aaa860207",
     google: "GnJ2guWKg6d2EAXYzZguTMmvf89ihaydgDxn_FzBPnY",
   },
   keywords: ["유아영어", "초등영어", "엄마표영어", "영어과외", "서대문구 영어", "홍은동 영어", "홍대 영어", "파닉스", "제드잉글리쉬", "제드쌤"],
