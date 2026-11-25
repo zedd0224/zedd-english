@@ -5,6 +5,16 @@
 // ─────────────────────────────────────────────────────────────
 
 export const site = {
+  // 최종 주소 (검색엔진·공유 미리보기·sitemap 에 쓰입니다)
+  url: "https://www.zeddenglish.co.kr",
+  // 검색엔진 소유 확인 코드: 네이버 서치어드바이저 / 구글 서치콘솔에서 받은 값을 넣으세요
+  verification: {
+    naver: "",
+    google: "",
+  },
+  keywords: ["유아영어", "초등영어", "엄마표영어", "영어과외", "서대문구 영어", "홍은동 영어", "홍대 영어", "파닉스", "제드잉글리쉬", "제드쌤"],
+  shareImage: "/landing/profile.jpg",
+
   name: "제드잉글리쉬",
   slogan: "호캐한 제드쌤의 유아·초등 영어",
   description:

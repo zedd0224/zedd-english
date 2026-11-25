@@ -22,7 +22,17 @@ export async function generateMetadata({
   return {
     title: `${post.title} | ${site.name}`,
     description: post.excerpt,
-    openGraph: post.cover ? { images: [post.cover] } : undefined,
+    keywords: post.tags,
+    alternates: { canonical: `/posts/${post.id}` },
+    openGraph: {
+      type: "article",
+      locale: "ko_KR",
+      url: `/posts/${post.id}`,
+      siteName: site.name,
+      title: post.title,
+      description: post.excerpt,
+      images: post.cover ? [post.cover] : undefined,
+    },
   };
 }
 
